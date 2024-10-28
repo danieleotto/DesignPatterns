@@ -16,5 +16,7 @@ public class Client {
 		
 		//il metodo stampa viene invocato su tutti gli oggetti dell'albero
 		cartella1.stampa();
+		cartella1.rimuovi(file1);
+		cartella1.stampa();
 	}
 }
